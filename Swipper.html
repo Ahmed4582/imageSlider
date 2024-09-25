@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Slider</title>
+    <link rel="stylesheet" href="SwipperStyle.css">
+</head>
+
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="./Img/solar-panels-meadow 2 (1).png" alt="Image 1"></div>
+            <div class="slide"><img src="./Img/solar-panels-meadow 2 (2).png" alt="Image 2"></div>
+            <div class="slide"><img src="./Img/solar-panels-meadow 2.png" alt="Image 3"></div>
+            <div class="slide"><img src="./Img/Akar.jpeg" alt="Image 4"></div>
+            <div class="slide"><img src="./Img/Property 1=2.png" alt="Image 5"></div>
+            <div class="slide"><img src="./Img/pexels-binyamin-mellish-106399 1.png" alt="Image 6"></div>
+            <div class="slide"><img src="./Img/zac-gudakov-wwqZ8CM21gg-unsplash 1.png" alt="Image 7"></div>
+            <div class="slide"><img src="./Img/pexels-binyamin-mellish-106399 1.png" alt="Image 8"></div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+
+        <!-- Pagination Dots -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+         
+        </div>
+    </div>
+
+    <script src="Main.js"></script>
+</body>
+
+</html>
